@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+	<div id="container">	
+   <div id="page">
+   <div id="login" class="animate__animated animate__flipInY">
+   	<h1 align="center">Login</h1>
+   	<form id="login_frm" autocomplete="off">
+   		<input type="email" placeholder="Email Id" id="login_email" >
+   		<input type="password" placeholder="Password" id="login_password">
+   		<button type="submit" id="login_btn">Login</button>
+   	</form>
+   	<p>Don't have any account ?</p><span id="signup_link">Sign up</span>
+   </div>
+
+   <div id="signup" class="animate__animated animate__flipInY">
+   	   	<h1 align="center">Sign up</h1>
+   	   	<form id="signup_frm">
+   	   		<input type="name" placeholder="Name" id="username" required="required">
+   	   		<input type="Number" placeholder="Number" id="phone" required="required">
+   	   		<input type="email" placeholder="Email" id="email" required="required">
+   	   		<input type="password" placeholder="Password" id="passowrd" required="required">
+   	   		<button id="signup_btn" type="submit">Sign up</button>
+   	   	</form>
+              	<p>Alerdy have any account ?</p><span id="login_link">Login in</span>
+
+
+           </div>	
+
+
+        </div>
+
+	</div>
+				
+
+<!-- start extranal javascript page -->
+   <script src="js/index.js"></script>
+   <script src="js/login_signup.js"></script>
+<!-- start extranal javascript page -->
+</body>
+</html>
